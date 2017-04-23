@@ -12,6 +12,7 @@ Create a project plan (including goal and audience analysis, flowchart, text, im
 
 Milestone 2 - Finished Product (30%, due week 13)
 This is the full, finished product website, the result of your team going through the complete website design and development process. Use the project plan to develop a functional, finished site. Your site should be “completed” by week 12, so that it is ready for usability testing. Assessment of this milestone is for both completeness and quality.
+
 Finished site components at a minimum are:
 Important: The requirements here are not specified as pages, but as features or functionality. 
 The information architecture is up to you to decide and the page/feature titles (e.g. “bulletin board”) are also able to be changed. E.g. the old site has a separate sponsors page, but you might like to combine this with the contact or about us page, or whatever you think is best as a result of careful consideration in your planning.
