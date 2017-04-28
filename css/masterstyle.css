@@ -1,13 +1,40 @@
 /*Fonts*/
+@font-face {
+    font-family: 'jacques_francoisregular';
+    src: url('../css/fonts/jacquesfrancois-regular-webfont.woff2') format('woff2'),
+         url('../css/fonts/jacquesfrancois-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'rubikregular';
+    src: url('rubik-regular-webfont.woff2') format('woff2'),
+         url('rubik-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /*Base Styles*/
 body{
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/reef_back.jpg");
-    background-color: black;
-	background-repeat:no-repeat;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
 	color: black;
 	font: 1em/1.2 rubikregular, Helvetica, Arial, Geneva,sans-serif;
 	}
@@ -59,11 +86,12 @@ a:active { color: red; }
 			
 header    {
 	color: #fff;
-	background-image: url("../images/orchestra_back.jpg")
 	}
 
 header h1 {
 	padding:.5em .5em;
+	text-align: right;
+	font-family:'jacques_francoisregular';
 	}
 	
 /* Main id elements*/
@@ -162,6 +190,7 @@ header h1 {
   float: left;
   display: block;
   color: #f2f2f2;
+  position:right;
   text-align: center;
   padding: .75em 1em;
   text-decoration: none;
@@ -270,6 +299,7 @@ header h1 {
 .container-details p {
 	text-align: left;
     text-indent: 2em;
+	padding:.5em;
 }
 
 /*Buttons*/
@@ -328,5 +358,5 @@ header h1 {
 /* Wrap text around image*/
 .img-wrap {
 	float:left;
-	margin: 0 .5em 0 .5em;
+	margin: 0 1em 0 1em;
 }	
