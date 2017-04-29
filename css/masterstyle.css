@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'kaushan_scriptregular';
-    src: url('kaushanscript-regular-webfont.woff2') format('woff2'),
-         url('kaushanscript-regular-webfont.woff') format('woff');
+    src: url('../css/fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('../css/fonts/kaushanscript-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -18,8 +18,62 @@
 
 @font-face {
     font-family: 'rubikregular';
-    src: url('rubik-regular-webfont.woff2') format('woff2'),
-         url('rubik-regular-webfont.woff') format('woff');
+    src: url('../css/fonts/rubik-regular-webfont.woff2') format('woff2'),
+         url('../css/fonts/rubik-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alfa_slab_oneregular';
+    src: url('../css/fonts/alfaslabone-regular-webfont.woff2') format('woff2'),
+         url('../css/fonts/alfaslabone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'artifikamedium';
+    src: url('../css/fonts/artifika-regular-webfont.woff2') format('woff2'),
+         url('../css/fonts/artifika-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cinzelblack';
+    src: url('../css/fonts/cinzel-black-webfont.woff2') format('woff2'),
+         url('../css/fonts/cinzel-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cinzelbold';
+    src: url('../css/fonts/cinzel-bold-webfont.woff2') format('woff2'),
+         url('../css/fonts/cinzel-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cinzel_decorativeblack';
+    src: url('../css/fonts/cinzeldecorative-black-webfont.woff2') format('woff2'),
+         url('../css/fonts/cinzeldecorative-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cinzel_decorativebold';
+    src: url('../css/fonts/cinzeldecorative-bold-webfont.woff2') format('woff2'),
+         url('../css/fonts/cinzeldecorative-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -29,7 +83,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-image: url("../images/reef_back.jpg");
+	background-image: url("../images/reef_back_trim.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -84,18 +138,21 @@ a:focus { color: black; }
 a:hover { color: #5DBC31; }
 a:active { color: red; }
 			
-header    {
-	color: #fff;
-	}
-
-header h1 {
-	padding:.5em .5em;
-	text-align: right;
-	font-family:'jacques_francoisregular';
-	}
 	
 /* Main id elements*/
 
+#header  {
+	color: #fff;
+	padding:.5em .5em;
+	text-align: right;
+	}
+
+#header h1 {
+	font-family:'cinzel_decorativeblack';
+	font-size: 2.75em;
+}
+
+	
 #copyright   {
 	background-color:#173f79;
 	clear:both;
