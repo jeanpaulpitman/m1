@@ -251,7 +251,7 @@ a:active { color: red; }
   text-align: center;
   padding: .75em 1em;
   text-decoration: none;
-  font-family:'capture_itregular';
+  font-family:'artifikamedium';
   font-size: 1.1em;
   cursor: pointer; 
 }
@@ -415,5 +415,5 @@ a:active { color: red; }
 /* Wrap text around image*/
 .img-wrap {
 	float:left;
-	margin: 0 1em 0 1em;
+	margin: 0 1em 1em 1em;
 }	
