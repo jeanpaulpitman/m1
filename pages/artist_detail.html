@@ -37,14 +37,47 @@
 				<h2>Townsville, Queensland, Australia</h2>
 			</div>
 			<h6>Navigation</h6>
-			<div class="topnav" id="myTopnav">
-				<a href="../index.html">Home</a>
-				<a href="aboutus.html">About Us</a>
-				<a href="artists.html">Artists</a>
-				<a href="repertoire.html">Repertoire</a>
-				<a href="support.html">Support</a>
-				<a href="javascript:void(0);" class="icon" onclick="topNav()">&#9776;</a>
-			</div>
+			<nav id="nav" role="navigation">
+				<a href="#nav" title="Show navigation">Show navigation</a>
+				<a href="#" title="Hide navigation">Hide navigation</a>
+				<ul class="clearfix list-unstyled">
+					<li><a href="index.html">Home</a></li>
+					<li>
+						<a href="about_bro.html" aria-haspopup="true"><span>About Us</span></a>
+						<ul>
+							<li><a href="about_bro.html">About BRO</a></li>
+							<li><a href="people.html">People</a></li>
+							<li><a href="concert_hist.html">Concert History</a></li>
+							<li><a href="concert_season.html">Concert Season</a></li>
+							<li><a href="contact_us.html">Contact Us</a></li>
+							<li><a href="bulletin_board.html">Bulletin Board</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="artists.html" aria-haspopup="true"><span>Artists</span></a>
+						<ul>
+							<li><a href="conductors.html">Conductors</a></li>
+							<li><a href="players.html">Players</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="repertoire.html" aria-haspopup="true"><span>Repertoire</span></a>
+						<ul>
+							<li><a href="recent.html">Recent</a></li>
+							<li><a href="archive.html">Archive</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="support.html" aria-haspopup="true"><span>Support</span></a>
+						<ul>
+							<li><a href="patrons.html">Patrons</a></li>
+							<li><a href="memberships.html">Memberships</a></li>
+							<li><a href="sponsors.html">Sponsors</a></li>
+							<li><a href="donations.html">Donations</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
 		</header>			
 		<div class="silky-body">
 			<main class="silky-content">
@@ -97,16 +130,13 @@
 				<small>Copyright &copy; JP Pitman (2017), All rights reserved.</small>
 			</section>
 		</footer>
-		
+		<script src="../jquery.min.js"></script>
+		<script src="doubletaptogo.js"></script>
 		<script>
-			function topNav() {
-				var x = document.getElementById("myTopnav");
-				if (x.className === "topnav") {
-					x.className += " responsive";
-     		}	else {
-					x.className = "topnav";
-			}
-			}
+			$( function()
+			{
+				$( '#nav li:has(ul)' ).doubleTapToGo();
+			});
 		</script>
 		
 	</body>
