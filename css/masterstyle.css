@@ -189,7 +189,7 @@ a:active { color: red; }
 	width:90%;
 	font-family:'artifikamedium';
 	font-weight: 400;
-	float:right
+	float:right;
 	}
 
 #nav > a	{
@@ -229,12 +229,14 @@ a:active { color: red; }
 #nav > ul{
 	height: 3.5em; /* 60 */
 	background-color: white;
+	border-radius:15px;
 	}
 	
 #nav > ul > li{
 	width: 20%;
 	height: 100%;
 	float: left;
+	border-radius:15px;
 	}
 	
 #nav > ul > li > a {
@@ -252,6 +254,7 @@ a:active { color: red; }
 #nav > ul > li:hover > a,
 #nav > ul:not( :hover ) > li.active > a {
 	background-color: white;
+	border-radius:15px;
 	}
 
 /* Sub level 1 */
