@@ -190,7 +190,7 @@ a:active { color: red; }
 	font-family:'artifikamedium';
 	font-weight: 400;
 	float:right;
-	padding:0 2%;
+	margin:0 2%;
 	}
 
 #nav > a	{
