@@ -416,8 +416,9 @@ html	{
 }
 
 .silky-ads {
-	padding: 1em;
+	padding: 0em;
 	border-radius: 3px;
+	margin-right:1%;
 }
 
 @media (min-width: 769px) {
@@ -432,48 +433,109 @@ html	{
   }
   
   .silky-nav, .silky-ads {
-    flex: 0 0 10em;
+    flex: 0 0 12em;
   }
 }
 
 /* Sub Nav*/
 .subnav {
-  overflow: hidden;
-  background-color: #333232;
+	overflow: hidden;
+	
 }
 
 .subnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: .75em 1em;
-  text-decoration: none;
-  font-family:'capture_itregular';
-  font-size: 1.1em;
-  cursor: pointer; 
+	float: left;
+	display: block;
+	color: teal;
+	text-align: center;
+	padding: .75em 1em;
+	text-decoration: none;
+	font-family:'artifikamedium';
+	font-size: 1.25em;
+	cursor: pointer; 
+	background-color: white;
+	border-radius: 15px;
+	margin-left:1.1em;
+	margin-top:.5em;
+	margin-bottom:.5em;
 }
 
 .subnav a:last-child {
 	background-color: #5DBC31;
 	font-style: italic;
+	color:white;
 	}
 	
 .subnav a:hover {
-  background-color: #FE9920;
-  color: white;
+	background-color: #FE9920;
+	color: white;
 }
 
 .subnav .icon {
-  display: none;
+	display: none;
 }
 
 /* MEDIA QUERIES*/
 @media (min-width: 769px) {
 	.subnav a {
-	width:80%;
+	width:65%;
 	}
 }
+
+/* Content nav*/
+.content_nav {
+	overflow: hidden;
+	}	
+	
+.content_nav a {
+	float: left;
+	display: block;
+	color: teal;
+	text-align: center;
+	padding: .75em 1em;
+	text-decoration: none;
+	font-family:'artifikamedium';
+	font-size: 1.25em;
+	cursor: pointer; 
+	background-color: white;
+	border-radius: 15px;
+	margin-left:20%;
+	margin-top:.5em;
+}
+
+	
+.content_nav a:hover {
+	background-color: #FE9920;
+	color: teal;
+}
+
+/* Breadcrumb*/
+ul.breadcrumb {
+    padding: .5em .5em;
+    list-style: none;
+    font-size: 1em;
+	}
+
+ul.breadcrumb li {
+    display: inline;
+	color:black
+	}
+
+ul.breadcrumb li+li:before {
+    padding: .5em;
+    color: teal;
+    content: "/\00a0";
+	}
+
+ul.breadcrumb li a {
+    color: teal;
+    text-decoration: none;
+	}
+
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+	}
 	
 /*Containers*/
 	
