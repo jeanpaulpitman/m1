@@ -186,10 +186,11 @@ a:active { color: red; }
 
 /* Responsive Drop Nav*/
 #nav{
-	width:90%;
+	width:96%;
 	font-family:'artifikamedium';
 	font-weight: 400;
 	float:right;
+	padding:0 2%;
 	}
 
 #nav > a	{
