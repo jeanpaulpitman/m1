@@ -83,7 +83,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-image: url("../images/reef_back_trim.jpg");
+	background-image: url("../images/reef_back_1920x2219.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -92,7 +92,21 @@ body{
 	color: black;
 	font: 1em/1.2 rubikregular, Helvetica, Arial, Geneva,sans-serif;
 	}
-						
+
+@media only screen and ( max-width: 62.5em ) /* 1000 */	{
+	
+body {
+	background-image: url("../images/reef_back_1000x1156.jpg");
+	}	
+}		
+
+@media only screen and ( max-width: 40em ) /* 640 */ {
+body	{
+	background-image: url("../images/reef_back_640x740.jpg");
+	}
+
+}
+	
 h1,h2,h3,h4,h5,h6 {
 	margin: 0 0 .5em;
 	font-weight: 500;
@@ -138,7 +152,8 @@ a:focus { color: black; }
 a:hover { color: #5DBC31; }
 a:active { color: red; }
 			
-	
+
+			
 /* Main id elements*/
 
 #header  {
