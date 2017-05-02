@@ -409,7 +409,6 @@ html	{
 	height: 100%;
 	flex-direction: column;
 }
-
 .silky-header,
 .silky-footer {
 	flex: none;
@@ -432,25 +431,87 @@ html	{
 
 .silky-ads {
 	padding: 0em;
-	border-radius: 3px;
 	margin-right:1%;
 }
 
 @media (min-width: 769px) {
-  .silky-body {
+.silky-body {
     flex-direction: row;
   }
-  
-  .silky-content {
+
+.silky-content {
     flex: 1;
     padding: 0;
     margin: 0;
   }
 
-  .silky-nav, .silky-ads {
+.silky-ads {
     flex: 0 0 12em;
   }
 }
+
+/* Top Nav*/
+.topnav {
+	overflow: hidden;
+	
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: teal;
+	text-align: center;
+	padding: .75em 1em;
+	text-decoration: none;
+	font-family:'artifikamedium';
+	font-size: 1.25em;
+	cursor: pointer; 
+	background-color: white;
+	border-radius: 15px;
+	margin-left:1.1em;
+	margin-top:.5em;
+	margin-bottom:.5em;
+}
+
+.topnav a:last-child {
+	background-color: #d62020;
+	font-style: italic;
+	color:white;
+	margin-left:20%;
+	}
+	
+.topnav a:hover {
+	background-color: #FE9920;
+	color: white;
+}
+
+.topnav .icon {
+	display: none;
+}
+
+@media (min-width: 320px) {
+	
+	.topnav a {
+	font-size: 80%
+	}
+
+}  
+
+@media (min-width: 600px) {
+	
+	.topnav a {
+	font-size: 90%
+	}
+
+}  
+
+/* MEDIA QUERIES*/
+@media (min-width: 769px) {
+	.topnav a {
+	font-size:100%;
+	}
+	
+}  
 
 /* Sub Nav*/
 .subnav {
@@ -502,6 +563,60 @@ html	{
 	}
 	
 .subnav a:last-child {
+	margin-left:1.1em;
+	}	
+}
+
+/* Ads Nav*/
+.adsnav {
+	overflow: hidden;
+	
+}
+
+.adsnav a {
+	float: left;
+	display: block;
+	color: teal;
+	text-align: center;
+	padding: .75em 1em;
+	text-decoration: none;
+	font-family:'artifikamedium';
+	font-size: 1.25em;
+	cursor: pointer; 
+	background-color: white;
+	border-radius: 15px;
+	margin-left:1.1em;
+	margin-top:.5em;
+	margin-bottom:.5em;
+}
+
+.adsnav a:last-child {
+	background-color: #d62020;
+	font-style: italic;
+	color:white;
+	margin-left:26%;
+	}
+	
+.adsnav a:hover {
+	background-color: #FE9920;
+	color: white;
+}
+
+.adsnav .icon {
+	display: none;
+}
+
+/* MEDIA QUERIES*/
+@media (min-width: 769px) {
+	.adsnav {
+	margin-top: 12em;
+	}
+	
+	.adsnav a {
+	width: 65%;
+	}
+	
+.adsnav a:last-child {
 	margin-left:1.1em;
 	}	
 }
