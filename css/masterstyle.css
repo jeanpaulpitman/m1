@@ -477,7 +477,8 @@ html	{
 	background-color: #d62020;
 	font-style: italic;
 	color:white;
-	margin-left:20%;
+	margin-left:18%;
+	font-size:120%;
 	}
 	
 .topnav a:hover {
@@ -492,7 +493,7 @@ html	{
 @media (min-width: 320px) {
 	
 	.topnav a {
-	font-size: 80%
+	font-size: 80%;
 	}
 
 }  
@@ -500,7 +501,7 @@ html	{
 @media (min-width: 600px) {
 	
 	.topnav a {
-	font-size: 90%
+	font-size: 90%;
 	}
 
 }  
@@ -587,14 +588,14 @@ html	{
 	border-radius: 15px;
 	margin-left:1.1em;
 	margin-top:.5em;
-	margin-bottom:.5em;
+	margin-bottom:1em;
 }
 
 .adsnav a:last-child {
 	background-color: #d62020;
 	font-style: italic;
 	color:white;
-	margin-left:26%;
+	font-size:120%;
 	}
 	
 .adsnav a:hover {
@@ -607,17 +608,36 @@ html	{
 }
 
 /* MEDIA QUERIES*/
-@media (min-width: 769px) {
+@media (min-width: 320px) {
+	.adsnav a {
+	font-size: 75%;
+	}
+
+}  
+
+@media (min-width: 600px) {
+	.adsnav a {
+	font-size: 90%;
+	}
+	
+.adsnav a:last-child {
+	margin-left:1.75em;
+	}	
+	
+}  
+
+@media (min-width: 769px) {	
 	.adsnav {
 	margin-top: 12em;
 	}
 	
 	.adsnav a {
 	width: 65%;
+	font-size:100%;
 	}
 	
 .adsnav a:last-child {
-	margin-left:1.1em;
+	margin-left: .5em;
 	}	
 }
 
