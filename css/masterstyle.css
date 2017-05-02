@@ -476,9 +476,10 @@ html	{
 }
 
 .subnav a:last-child {
-	background-color: #5DBC31;
+	background-color: #d62020;
 	font-style: italic;
 	color:white;
+	margin-left:26%;
 	}
 	
 .subnav a:hover {
@@ -492,9 +493,17 @@ html	{
 
 /* MEDIA QUERIES*/
 @media (min-width: 769px) {
-	.subnav a {
-	width:65%;
+	.subnav {
+	margin-top: 12em;
 	}
+	
+	.subnav a {
+	width: 65%;
+	}
+	
+.subnav a:last-child {
+	margin-left:1.1em;
+	}	
 }
 
 /* Content nav*/
@@ -589,12 +598,7 @@ ul.breadcrumb li a:hover {
 .red {
 	color:red;
 	}	
- 
-/*Header Font */	
-.silky-header h1 {
-	font-family:'capture_itregular'; 
-	font-size:2.5em;
-	}
+ 	
 	
 /*Table Styles*/
 
