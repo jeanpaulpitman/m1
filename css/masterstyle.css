@@ -628,7 +628,7 @@ html	{
 
 @media (min-width: 769px) {	
 	.adsnav {
-	margin-top: 12em;
+	margin-top: 2em;
 	}
 	
 	.adsnav a {
@@ -638,6 +638,7 @@ html	{
 	
 .adsnav a:last-child {
 	margin-left: .5em;
+	margin-top: 8em;
 	}	
 }
 
