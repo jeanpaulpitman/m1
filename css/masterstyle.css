@@ -582,6 +582,11 @@ ul.breadcrumb li a:hover {
 	
 	}
 
+.container-details h1 {
+	text-align: left;
+    text-indent: .5em;
+}
+
 .container-details p {
 	text-align: left;
     text-indent: 2em;
