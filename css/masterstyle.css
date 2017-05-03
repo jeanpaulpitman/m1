@@ -749,7 +749,7 @@ ul.breadcrumb li a:hover {
 }
 
 .gallery figcaption{
-    background: #f39f3f;
+    background: teal;
     color: #fff;
     text-align: center;
     padding: .7rem;
