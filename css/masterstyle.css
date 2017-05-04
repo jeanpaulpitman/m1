@@ -88,7 +88,7 @@ html,h1,h2,p, div,a,img,header,footer,span,section,nav,aside,article,figure,figc
 body{
 	margin: 0;
 	padding: 0;
-	background-image: url("../images/reef_back_1920x2219.jpg");
+	background-image: url("../images/reef_back_1920x2219_compressed.jpg");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -101,13 +101,13 @@ body{
 @media only screen and ( max-width: 62.5em ) /* 1000 */	{
 	
 body {
-	background-image: url("../images/reef_back_1000x1156.jpg");
+	background-image: url("../images/reef_back_1000x1156_compressed.jpg");
 	}	
 }		
 
 @media only screen and ( max-width: 40em ) /* 640 */ {
 body	{
-	background-image: url("../images/reef_back_640x740.jpg");
+	background-image: url("../images/reef_back_640x740_compressed.jpg");
 	}
 
 }
@@ -818,7 +818,42 @@ div.panel {
     display: none;
     background-color: white;
 }
-	
+
+/*! http://responsiveslides.com v1.55 by @viljamis */
+/* Responsive Slider for home screen*/
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+  
 /*Containers*/
 	
 /*generic container*/
