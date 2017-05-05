@@ -134,7 +134,7 @@ a:active { color: red; }
 }
 	
 #copyright   {
-	background-color:#173f79;
+	background-color:#00b9c0;
 	clear:both;
 	color:white;
 	text-align:center;
@@ -144,7 +144,7 @@ a:active { color: red; }
 	}
 	
 #footerlinks   {
-	background-color:#173f79;
+	background-color:#00b9c0;
 	clear:both;
 	color:white;
 	text-align:center;
@@ -295,6 +295,7 @@ html	{
 	position: relative;
 	top: auto;
 	left: auto;
+	margin-bottom:2.5em;
 	}
 	
 #nav > a {
@@ -337,6 +338,7 @@ html	{
 	
 #nav:target > ul {
 	display: block;
+	z-index:10;
 	}
 	
 #nav > ul > li {
@@ -361,6 +363,7 @@ html	{
 	position: static;
 	padding: 1.25em; /* 20 */
 	padding-top: 0;
+	z-index:10;
 	}
 }
 
@@ -785,6 +788,7 @@ div.panel {
   width: 100%;
   padding: 0;
   margin: 0;
+  z-index:1;
   }
 
 .rslides li {
