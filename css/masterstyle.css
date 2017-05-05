@@ -1,11 +1,4 @@
 /*Fonts*/
-@font-face {
-    font-family: 'jacques_francoisregular';
-    src: url('../css/fonts/jacquesfrancois-regular-webfont.woff2') format('woff2'),
-         url('../css/fonts/jacquesfrancois-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'kaushan_scriptregular';
@@ -17,45 +10,9 @@
 }
 
 @font-face {
-    font-family: 'rubikregular';
-    src: url('../css/fonts/rubik-regular-webfont.woff2') format('woff2'),
-         url('../css/fonts/rubik-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'alfa_slab_oneregular';
-    src: url('../css/fonts/alfaslabone-regular-webfont.woff2') format('woff2'),
-         url('../css/fonts/alfaslabone-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
     font-family: 'artifikamedium';
     src: url('../css/fonts/artifika-regular-webfont.woff2') format('woff2'),
          url('../css/fonts/artifika-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'cinzelblack';
-    src: url('../css/fonts/cinzel-black-webfont.woff2') format('woff2'),
-         url('../css/fonts/cinzel-black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'cinzelbold';
-    src: url('../css/fonts/cinzel-bold-webfont.woff2') format('woff2'),
-         url('../css/fonts/cinzel-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -819,7 +776,7 @@ div.panel {
     background-color: white;
 }
 
-/*! http://responsiveslides.com v1.55 by @viljamis */
+/*! Source http://responsiveslides.com v1.55 by @viljamis */
 /* Responsive Slider for home screen*/
 .rslides {
   position: relative;
@@ -986,6 +943,7 @@ div.panel {
 .img-responsive {
 	max-width:100%;
 	}	
+	
 /* Wrap text around image*/
 .img-wrap {
 	float:left;
