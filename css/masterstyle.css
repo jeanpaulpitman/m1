@@ -860,8 +860,6 @@ div.panel {
 .container {
 	margin: 0 ;
 	}
-	
-
 
 /* Details Container*/
 .container-details {
@@ -887,10 +885,59 @@ div.panel {
 
 /*Next Event Highlight*/
 .next_event {
-	background-color:pink;
-	margin-top:.5em;
-	margin-bottom:.5em;
+	display:block;
+	border-radius: 15px;
+	margin:2%;
 }
+
+/*Home News Highlight*/
+.home_news {
+	background-color:skyblue;
+	border-radius: 15px;
+	margin:2%;
+	margin-top:2em;
+	
+}
+
+.home_article,
+.home_news h2 {
+	text-align:center;
+	
+}
+
+.home_news a {
+	text-decoration:none;
+	color:teal;
+	cursor:pointer;
+	}
+	
+/*Home feature article Highlight*/
+.home_article {
+	background-color:white;
+	border-radius: 15px;
+	margin:2%;
+	margin-top:2em;
+}
+
+.home_article a {
+	cursor:pointer;
+	}
+	
+/* Floating grid for home screen*/
+.float {
+	display:block;
+	float:left;
+	width: calc(90%/2)	
+	
+}
+
+@media only screen and (max-width:400px){
+.float {
+    width:100%;
+   }
+    
+}
+
 /*Buttons*/
 
 
